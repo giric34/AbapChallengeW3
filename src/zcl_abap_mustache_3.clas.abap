@@ -90,7 +90,7 @@ CLASS zcl_abap_mustache_3 IMPLEMENTATION.
 
                                 'Welcome to {{book_lib}} !' && cl_abap_char_utilities=>newline &&
                                   ' {{#book_det}}' && cl_abap_char_utilities=>newline &&
-                                  ' Name: {{book_name}} -- Genre: {{genre}} -- Author :{{author}} -- Published Year: {{year}}' && cl_abap_char_utilities=>newline &&
+                                  ' Name: {{book_name}}  | Genre: {{genre}} |  Author :{{author}} | Published Year: {{year}}' && cl_abap_char_utilities=>newline &&
                                   ' {{/book_det}}'
                             ).
 
